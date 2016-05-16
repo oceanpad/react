@@ -10,7 +10,8 @@
     "browserify": "^11.0.1",
     "react": "15.0.1",
     "react-dom": "15.0.1",
-    "watchify": "^3.4.0"
+    "watchify": "^3.4.0",
+		"browser"
   },
   "scripts": {
     "build": "browserify ./index.js -t babelify -o bundle.js",
